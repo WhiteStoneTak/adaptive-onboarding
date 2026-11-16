@@ -23,7 +23,7 @@ Both platforms use a standard `SKILL.md` folder. A single canonical skill lives 
 ### Codex (global)
 
 ```bash
-git clone https://github.com/WhiteStoneTak/onboarding.git ~/onboarding-skill
+git clone https://github.com/WhiteStoneTak/adaptive-onboarding.git ~/onboarding-skill
 mkdir -p ~/.agents/skills
 ln -sfn ~/onboarding-skill/adaptive-onboarding ~/.agents/skills/adaptive-onboarding
 ```
@@ -33,7 +33,7 @@ Then in Codex, invoke `$adaptive-onboarding`, or ask to audit/design/implement o
 ### Claude Code (global)
 
 ```bash
-git clone https://github.com/WhiteStoneTak/onboarding.git ~/onboarding-skill
+git clone https://github.com/WhiteStoneTak/adaptive-onboarding.git ~/onboarding-skill
 mkdir -p ~/.claude/skills
 ln -sfn ~/onboarding-skill/adaptive-onboarding ~/.claude/skills/adaptive-onboarding
 ```
